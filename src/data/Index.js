@@ -1,0 +1,58 @@
+export const Heroes = [
+    {
+        nombre: "Angel",
+        vida: 17955,
+        ataque: 2444,
+        img: require("../../assets/img/Angel.png"),
+        id: 1,
+    },
+    {    
+        nombre: "Tirador",
+        vida: 15561,
+        ataque: 3292,
+        img: require("../../assets/img/Tirador.png"),
+        id: 2,
+    },
+    {
+        nombre: "Gigante de la Montaña",
+        vida: 20748,
+        ataque: 2893,
+        img: require("../../assets/img/Gigante.png"),
+        id: 3,
+    },
+    {
+        nombre: "Ingeniero",
+        vida: 16808,
+        ataque: 3242,
+        img: {uri: "https://static.wikia.nocookie.net/castle-clash/images/d/d8/Engineer.png/revision/latest?cb=20140327171915"},
+        id: 4,
+    },
+    {
+        nombre: "Bruja Helada",
+        vida: 18055,
+        ataque: 2943,
+        img: {uri: "https://static.wikia.nocookie.net/castle-clash/images/1/14/Frost_Witch.png/revision/latest?cb=20140327172033"},
+        id: 5,
+    },
+    {
+        nombre: "Driada",
+        vida: 32369,
+        ataque: 1995,
+        img: {uri: "https://static.wikia.nocookie.net/castle-clash/images/5/5c/Dryad.png/revision/latest?cb=20140327172028"},
+        id: 6,
+    },
+    {
+        nombre: "Alquimista",
+        vida: 18055,
+        ataque: 2943,
+        img: require("../../assets/img/Aqluimista.png"),
+        id: 7,
+    },
+    {
+        nombre: "Saqueador",
+        vida: 29147,
+        ataque: 2045,
+        img: {uri: "https://static.wikia.nocookie.net/castle-clash/images/f/f2/Marauder.png/revision/latest?cb=20140327171755"},
+        id: 8,
+    },
+]
